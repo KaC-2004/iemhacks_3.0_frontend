@@ -114,7 +114,8 @@ body {
 
 /* Home Page */
 #hero{
-    background-image:url("images/hero_sec.png");
+    
+    background-image:url("images/hero_sec 1.png");
     height: 90vh;
     width:100%;
     background-size: cover;
@@ -127,14 +128,15 @@ body {
 }
 #hero h4{
     padding-bottom: 15px;
+    color: white;
 }
 #hero h1{
-    color: #088178;
+    color: #B2FFFF;
 }
 #hero button{
     background-image: url("images/button.png");
     background-color: transparent;
-    color: #088178;
+    color: #B2FFFF;
     border: 0;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
