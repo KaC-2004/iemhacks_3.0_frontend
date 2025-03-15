@@ -39,8 +39,8 @@
             <input type="email" placeholder="Email Address" required>
             <input type="text" placeholder="Phone Number" required>
             <input type="text" placeholder="Pincode" required>
-            <textarea placeholder="Describe your emergency..." rows="4"></textarea>
-            <button type="submit" class="normal">Submit Request</button>
+            <textarea placeholder="Describe your emergency..." rows="4" style="resize: none;"></textarea>
+            <button type="submit" id="submit-btn" class="normal">Submit Request</button>
         </form>
         <div id="form-info">
             <h4>Why fill out this form?</h4>
@@ -51,14 +51,22 @@
     <section id="nearby-hospitals" class="section-p1">
         <h2>Track Nearby Hospitals</h2>
         <div id="map">
-            <!-- Embed Google Maps or any other map service -->
-            <img src="images/map-placeholder.jpg" alt="Map showing nearby hospitals">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="820" height="560" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://online-timer.me/"></a><br>
+                    <a href="https://online.stopwatch-timer.net/"></a><br>
+                    <a href="https://www.embedmaps.co">google map for my website</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="blood-organ-request" class="section-p1">
         <h2>Blood and Organ Requirement?</h2>
-        <button class="normal">Request Blood/Organ</button>
+        <button class="normal" id="req-blood-btn">Request Blood/Organ</button>
     </section>
 
     <footer class="section-p1">
