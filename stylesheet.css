@@ -139,7 +139,7 @@ body {
     color: #088178;
 }
 
-#navbar li a.active::after,    /*Add underline to Highlighted current page*/
+#navbar li a.active::after,
 #navbar li a:hover::after{    
     content:"";
     width: 30%;
