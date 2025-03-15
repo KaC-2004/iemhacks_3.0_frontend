@@ -159,7 +159,7 @@ body {
 /* Home Page */
 #hero{
     
-    background-image:url("images/hero_sec 1.png");
+    background-image:url("../images/hero_sec\ 1.png");
     height: 90vh;
     width:100%;
     background-size: cover;

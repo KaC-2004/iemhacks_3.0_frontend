@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Page</title>
     <link rel="stylesheet" href="../css/navbar.css">
+	<link rel="stylesheet" href="../css/emergencyStyle.css">
 </head>
 <body>
 
@@ -22,6 +23,45 @@
 			</ul>
 		</div>
 	</nav>
+	<section id="emergency-header" class="section-p1">
+        <h1>Request Urgent Medical Assistance</h1>
+        <div class="emergency-buttons">
+            <button class="normal">Emergency Request</button>
+            <button class="normal">Call Nearest Hospital</button>
+        </div>
+    </section>
 
+    <section id="emergency-form" class="section-p1">
+        <h2>Emergency Request Form</h2>
+        <form id="request-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Phone Number" required>
+            <input type="text" placeholder="Pincode" required>
+            <textarea placeholder="Describe your emergency..." rows="4"></textarea>
+            <button type="submit" class="normal">Submit Request</button>
+        </form>
+        <div id="form-info">
+            <h4>Why fill out this form?</h4>
+            <p>We will connect you to the nearest hospital and provide immediate assistance.</p>
+        </div>
+    </section>
+
+    <section id="nearby-hospitals" class="section-p1">
+        <h2>Track Nearby Hospitals</h2>
+        <div id="map">
+            <!-- Embed Google Maps or any other map service -->
+            <img src="images/map-placeholder.jpg" alt="Map showing nearby hospitals">
+        </div>
+    </section>
+
+    <section id="blood-organ-request" class="section-p1">
+        <h2>Blood and Organ Requirement?</h2>
+        <button class="normal">Request Blood/Organ</button>
+    </section>
+
+    <footer class="section-p1">
+        <p>&copy; 2025 Hospital Tracker. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
